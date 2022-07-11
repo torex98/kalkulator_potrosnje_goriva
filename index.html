@@ -1,0 +1,32 @@
+<!DOCTYPE html>.
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Potrošnja goriva</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="background-overlay">
+		<div class="header">
+			<h1>Kalkulator potrošnje goriva</h1>
+	   </div>
+
+	  <div class="body">
+	   	<h2>Uputstvo</h2>
+	   	<div class="body1">
+	   		<p>Sipajte gorivo do vrha, tačnije do prvog klika pištolja.</p><br />
+	   		<p>Vozite automobil do trećine ili polovine rezervoara,
+	   			zatim <b>na istoj pumpi</b> natočite gorivo po istom principu.</p><br />
+	   			<b><p style="font-size: 25px;">Popunite prazna polja da biste izračunali prosečnu potrošnju na 100km.</p></b>
+	   	</div>
+	  </div>
+		<div class="container">
+			<h3>Prilikom drugog sipanja sipano je <input type="number" min="1" id="litar"> litara a kilometraža na satu je bila
+				<input type="number" min="1" id="kilometar"> kilometara od prvog sipanja.</h3>
+
+			<button onclick="fuelCalculator()">Izračunaj potrošnju na 100 km</button>
+		</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
